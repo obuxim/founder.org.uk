@@ -12,9 +12,6 @@ const Instructor = () => {
             <div className="col-xl-6 col-lg-6 col-md-12 mb-30">
               <div className="instructor-wrapper">
                 <div className="section-title mb-45">
-                  <span>
-                    <i className="fal fa-ellipsis-h" /> Build A Career
-                  </span>
                   <h2>Why us?</h2>
                   <p>
                     Founder is an interactive e-learning platform which has all

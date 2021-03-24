@@ -6,10 +6,6 @@ const GalleryArea = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
               <div className="section-title text-center mb-60">
-                <span>
-                  <i className="fal fa-ellipsis-h" /> Photo &amp; Album{" "}
-                  <i className="fal fa-ellipsis-h" />
-                </span>
                 <h2>Entrepreneurial tips to jumpstart your dreams</h2>
               </div>
             </div>

@@ -6,10 +6,6 @@ const CourseCat = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
               <div className="section-title text-center mb-60">
-                <span>
-                  <i className="fal fa-ellipsis-h" /> Popular Categories{" "}
-                  <i className="fal fa-ellipsis-h" />
-                </span>
                 <h2>Free quiz </h2>
               </div>
             </div>

@@ -1,6 +1,4 @@
-import Blog from "../Homepage/Blog";
-import TeamMembers from "../Homepage/Team-members";
-import Testimonial from "../Homepage/Testimonial";
+import AboutCounter from "../About/Counter";
 
 const About = () => {
   return (
@@ -33,8 +31,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*page-title-area end*/}
-      {/*about-eduplus-area start*/}
       <section className="about-eduplus-area pt-130 pb-130">
         <div className="container">
           <div className="row">
@@ -57,14 +53,9 @@ const About = () => {
             <div className="col-xl-6 col-lg-6 col-md-12">
               <div className="about-wrapper mb-30">
                 <div className="section-title text-left mb-60">
-                  <span>
-                    <i className="fal fa-ellipsis-h" /> Introduced About EduPlus
-                  </span>
-                  <h2>Welcome To EduPlus</h2>
+                  <h2> We create high-flier entrepreneurs</h2>
                   <p className="left-line pos-rel pl-30">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam eaque ipsa quae ab illo inventore veritatis et quase
+                  Benefit your entrepreneurial ventures largely learning the essentials from Founder through the high-yielding courses 
                   </p>
                 </div>
                 <div className="about-inner-text">
@@ -77,9 +68,7 @@ const About = () => {
                         <div className="inner-content-text">
                           <h6>Professional &amp; Expert</h6>
                           <p>
-                            Quis autem vel eum iure reprehenderit qui in ea
-                            voluptate velit esse quam nihil molestiae
-                            consequatur vels{" "}
+                          Constructive entrepreneurial tips: while attending the courses, you’ll gain loads of entrepreneurial tips and tactics for strategic and innovative management of business opportunities in your own company{" "}
                           </p>
                         </div>
                       </div>
@@ -92,9 +81,7 @@ const About = () => {
                         <div className="inner-content-text">
                           <h6>Job Placement Support</h6>
                           <p>
-                            Quis autem vel eum iure reprehenderit qui in ea
-                            voluptate velit esse quam nihil molestiae
-                            consequatur vels{" "}
+                          Learn from top entrepreneurial bodies: we are yielding you the way to learn directly from the world renowned entrepreneur faces who’ll incline their hard-won knowledge and strategic ideas for your startup success. {" "}
                           </p>
                         </div>
                       </div>
@@ -109,68 +96,8 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/*about-eduplus-area end*/}
-      {/* counter-area-start */}
-      <div className="counter-area counter-area-03">
-        <div className="container">
-          <div className="counter-bg">
-            <div className="row">
-              <div className="col-xl-3 col-lg-3 col-md-6">
-                <div className="counter-wrapper counter-wrapper-03 mb-30">
-                  <div className="counter-icon f-left">
-                    <i className="fal fa-users" />
-                  </div>
-                  <div className="counter-text">
-                    <h1>
-                      <span className="counter">3045</span>+
-                    </h1>
-                    <span>Saticfied Students</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-3 col-md-6">
-                <div className="counter-wrapper counter-wrapper-03 mb-30">
-                  <div className="counter-icon f-left">
-                    <i className="fal fa-books" />
-                  </div>
-                  <div className="counter-text">
-                    <h1>
-                      <span className="counter">7852</span>+
-                    </h1>
-                    <span>Available Courses</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-3 col-md-6">
-                <div className="counter-wrapper counter-wrapper-03 mb-30">
-                  <div className="counter-icon f-left">
-                    <i className="fal fa-graduation-cap" />
-                  </div>
-                  <div className="counter-text">
-                    <h1>
-                      <span className="counter">9862</span>+
-                    </h1>
-                    <span>Graduate Students</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-3 col-md-6">
-                <div className="counter-wrapper counter-wrapper-03 mb-30">
-                  <div className="counter-icon f-left">
-                    <i className="fal fa-laptop-code" />
-                  </div>
-                  <div className="counter-text">
-                    <h1>
-                      <span className="counter">8963</span>+
-                    </h1>
-                    <span>Active Courses</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+     <AboutCounter />
       <section className="we-are-area grey-bg pt-160 pb-100">
         <div className="container">
           <div className="row align-items-center">
@@ -180,11 +107,9 @@ const About = () => {
                   <span>
                     <i className="fal fa-ellipsis-h" /> Who We Are
                   </span>
-                  <h2>Institute Goals</h2>
+                  <h2>Grab the opportunity to success</h2>
                   <p>
-                    Sed ut perspiciat unde omnis iste natus voluptate
-                    accusantium doloremque laudantium totam rem ape riam eaque
-                    ipsa quae ab illo inventore{" "}
+                  Short Description: Founder equips you with the right set of skills and globally equivalent entrepreneurial knowledge. Transform your learning journey into a success story. 
                   </p>
                 </div>
                 <div className="skill-area">
@@ -235,9 +160,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <TeamMembers />
-      <Testimonial />
-      <Blog />
     </>
   );
 };

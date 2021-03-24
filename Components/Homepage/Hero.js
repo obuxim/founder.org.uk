@@ -7,9 +7,7 @@ const Hero = () => {
         </div>
         <div className="hero-slider">
           <div
-            className="single-slider slider-height d-flex align-items-center"
-            data-background="assets/img/slider/01.jpg"
-          >
+            className="single-slider slider-height d-flex align-items-center" style ={ { backgroundImage: "url('assets/img/slider/01.jpg')" } }>
             <div className="container">
               <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-9">

@@ -1,6 +1,9 @@
 import Head from 'next/head'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import Header from '../Components/Header'
 import Footer from './Footer'
+
 
 const Layout = ({children}) => {
     return (

@@ -1,9 +1,11 @@
+
+import Link from 'next/link';
 import HeaderAside from "./Header-aside"
 
 const Header = () => {
     return (
         <>
-            <header className="header-transparent">
+      <header className="header-transparent">
         <div id="sticky-header" className="main-menu-area menu-padding pl-55 pr-55">
           <div className="container-fluid">
             <div className="row align-items-center">
@@ -16,14 +18,14 @@ const Header = () => {
                 <div className="main-menu text-left ml-15">
                   <nav id="mobile-menu">
                     <ul>
-                      <li className="active"><a href="index.html">Home</a>
+                      <li className="active"><Link href="/"><a>Home</a></Link>
                       </li>
-                      <li><a href="#">All Courses </a>
+                      <li><Link href="/courses"><a>All Courses </a></Link>
                         
                       </li>
                       <li><a href="#">Special Deal </a>
                       </li>
-                      <li><a href="blog.html">Blog </a>
+                      <li><Link href="/blog"><a>Blog </a></Link>
                         
                       </li>
                       <li><a href="#">Free Resources <i className="far fa-angle-down" /></a>
@@ -41,9 +43,6 @@ const Header = () => {
                   </div>
                   <div className="header-sing d-none d-md-inline-block">
                     <a href="contact.html"> <i className="far fa-user-circle" />sing in</a>
-                  </div>
-                  <div className="hamburger-menu menu-bar info-bar">
-                    <a href="#"><img src="assets/img/icon/bar.png" alt="" /></a>
                   </div>
                 </div>
               </div>

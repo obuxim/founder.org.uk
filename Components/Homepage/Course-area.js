@@ -1,3 +1,4 @@
+
 const CourseArea = () => {
   return (
     <>
@@ -6,10 +7,6 @@ const CourseArea = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
               <div className="section-title section-title-theme text-center mb-75">
-                <span>
-                  <i className="fal fa-ellipsis-h" /> Popular Courses{" "}
-                  <i className="fal fa-ellipsis-h" />
-                </span>
                 <h2>Find the right course for you</h2>
               </div>
             </div>
@@ -136,7 +133,7 @@ const CourseArea = () => {
                 <div className="course-inner">
                   <div className="course-img pos-rel mb-25">
                     <a href="courses-details.html">
-                      <img src="assets/img/course/c-01.jpg" alt="" />
+                      <img src="assets/img/course/c-02.jpg" alt="" />
                     </a>
                     <div className="course__instructor pos-abl d-flex align-items-center">
                       <div className="course__instructor--thumb">
@@ -252,7 +249,7 @@ const CourseArea = () => {
                 <div className="course-inner">
                   <div className="course-img pos-rel mb-25">
                     <a href="courses-details.html">
-                      <img src="assets/img/course/c-02.jpg" alt="" />
+                      <img src="assets/img/course/c-03.png" alt="" />
                     </a>
                     <div className="course__instructor pos-abl d-flex align-items-center">
                       <div className="course__instructor--thumb">

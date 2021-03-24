@@ -29,8 +29,6 @@ const Coursesingle = () => {
           </div>
         </div>
       </section>
-      {/*page-title-area end*/}
-      {/* course-area-start */}
       <section className="course-curriculumn-area pt-130 pb-100">
         <div className="container">
           <div className="row">
@@ -89,7 +87,7 @@ const Coursesingle = () => {
                   </p>
                 </div>
                 <div className="curriculumn-area mb-65">
-                  <h3 className="course-title-03 mb-20">Curriculum</h3>
+                  <h3 className="course-title-03 mb-20">Course description</h3>
                   <p className="mb-25">
                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
                     odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -146,7 +144,7 @@ const Coursesingle = () => {
                     <img src="assets/img/course/c-20.jpg" alt />
                   </div>
                   <h3 className="course-title-03 mb-20">
-                    Frequently Asked Questions
+                  Certification
                   </h3>
                   <p>
                     Wuisquam est, qui dolorem ipsum quia dolor sit amet,
@@ -310,7 +308,7 @@ const Coursesingle = () => {
                   </div>
                 </div>
                 <div className="course-intructor-area">
-                  <h3 className="course-title-03 mb-20">Course Instructors</h3>
+                  <h3 className="course-title-03 mb-20">Certification</h3>
                   <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-6">
                       <div className="instructors text-center mb-30">

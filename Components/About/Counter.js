@@ -1,7 +1,9 @@
-const Counter = () => {
-  return (
-    <>
-      <div className="counter-area pb-100">
+import React from 'react'
+
+const AboutCounter = () => {
+    return (
+        <>
+            <div className="counter-area pb-100">
         <div className="container">
           <div className="counter-bg">
             <div className="row">
@@ -12,7 +14,7 @@ const Counter = () => {
                   </div>
                   <div className="counter-text">
                     <h1 style={{fontSize: 17}}>
-                      <span className="counter">Highly Interactive Courses</span>
+                      <span className="counter">Quality <br/>eLearning</span>
                     </h1>
                   </div>
                 </div>
@@ -24,7 +26,7 @@ const Counter = () => {
                   </div>
                   <div className="counter-text">
                   <h1 style={{fontSize: 17}}>
-                      <span className="counter">Resourceful Curriculum</span>
+                      <span className="counter">Best entrepreneurial solution</span>
                     </h1>
                   </div>
                 </div>
@@ -36,7 +38,7 @@ const Counter = () => {
                   </div>
                   <div className="counter-text">
                   <h1 style={{fontSize: 17}}>
-                      <span className="counter">Expert <br/>Mentors</span>
+                      <span className="counter">Expert <br/>assistance</span>
                     </h1>
                   </div>
                 </div>
@@ -48,7 +50,7 @@ const Counter = () => {
                   </div>
                   <div className="counter-text">
                   <h1 style={{fontSize: 17}}>
-                      <span className="counter">Instant e-Certificates</span>
+                      <span className="counter">Affordable <br/>course</span>
                     </h1>
                   </div>
                 </div>
@@ -56,9 +58,9 @@ const Counter = () => {
             </div>
           </div>
         </div>
-      </div>
-    </>
-  );
-};
+      </div> 
+        </>
+    )
+}
 
-export default Counter;
+export default AboutCounter;

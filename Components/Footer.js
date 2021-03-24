@@ -1,101 +1,97 @@
-import Brands from "../Components/Homepage/Brands";
+import Link from 'next/link';
 const Footer = () => {
   return (
     <>
-      <Brands />
-      <footer
-        className="footer-area pt-65 pb-45"
-        data-background="assets/img/bg/fot-01-bg.png"
-      >
+      <footer className="footer-area pt-65 pb-45" data-background="" style ={ { backgroundImage: "url('assets/img/bg/fot-01-bg.png')" } }>
         <div className="container">
           <div className="row mb-55 no-gutters align-items-center">
             <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div className="footer-logo">
-                <a href="index.html">
+               <Link href="/"><a>
                   <img src="assets/img/logo/footer-01-logo.png" alt />
-                </a>
+                </a></Link>
               </div>
             </div>
             <div className="col-xl-8 col-lg-8 col-md-8 col-12">
               <div className="footer-social-icon text-right pb-70">
-                <a className="fot-fb active pb-70" href="#">
+                <Link href="/">
+                <a className="fot-fb active pb-70">
                   <i className="fab fa-facebook-f" /> Facebook
                 </a>
-                <a className="fot-twitter pb-70" href="#">
+                </Link>
+                <Link href="/">
+                <a className="fot-twitter pb-70">
                   <i className="fab fa-twitter" /> Twitter
                 </a>
-                <a className="fot-google pb-70" href="#">
-                  <i className="fab fa-youtube" /> Youtube
-                </a>
-                <a className="fot-insta pb-70" href="#">
+                </Link>
+                <Link href="/">
+                  <a className="fot-google pb-70">
+                    <i className="fab fa-youtube" /> Youtube
+                  </a>
+                </Link>
+                <Link href=""><a className="fot-insta pb-70">
                   <i className="fab fa-instagram" /> Instagram
                 </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-xl-4 col-lg-5 col-md-8 col-12">
               <div className="footer-widget mb-30">
-                <h4 className="footer-widget-title mb-25">Our Courses</h4>
+                <h4 className="footer-widget-title mb-25">About</h4>
                 <ul className="footer-list">
-                  <li>
-                    <a href="#">Home</a>
+                  <li><Link href="/courses">
+                    <a>All Courses</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">About us</a>
+                  <Link href="/aboutus">
+                    <a>About Us</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Success Stories</a>
+                  <Link href="/contact">
+                    <a>Contact Us</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">All Courses</a>
+                  <Link href="/">
+                    <a>Free Quizzes</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                  <Link href="/resourse">
+                    <a>Free Resources</a>
+                    </Link>
                   </li>
                   <li>
-                  <a href="#">Privacy Policy</a>
+                  <Link href="/blog">
+                  <a>Blogs</a>
+                  </Link>
                   </li>
                   <li>
-                  <a href="#">Terms of use</a>
+                  <Link href="/privacy">
+                  <a>Privacy Policy</a>
+                  </Link>
                   </li>
                   <li>
-                  <a href="#">Contact Us</a>
+                  <Link href="/term">
+                  <a>Terms & Condition</a>
+                  </Link>
                   </li>
                   <li>
-                  <a href="#">FAQ</a>
+                  <Link href="/redeem">
+                  <a>Redeem Voucher</a>
+                  </Link>
                   </li>
                   <li>
-                  <a href="#">Our Partners</a>
+                  <Link href="/certificate">
+                  <a>Certificate Validate</a>
+                  </Link>
                   </li>
+                  <li>
 
-                  <li>
-                    <a href="#">Redeem Voucher</a>
-                  </li>
-                  <li>
-
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-2 col-md-4 col-12">
-              <div className="footer-widget widget-center text-center mb-30">
-                <h4 className="footer-widget-title mb-25">Company</h4>
-                <ul className="footer-list footer-02-list">
-                  <li>
-                    <a href="#">About Eduket</a>
-                  </li>
-                  <li>
-                    <a href="#">Meet Advisors</a>
-                  </li>
-                  <li>
-                    <a href="#">Join A Career</a>
-                  </li>
-                  <li>
-                    <a href="#">Latest Courses</a>
-                  </li>
-                  <li>
-                    <a href="#">Newsletters</a>
                   </li>
                 </ul>
               </div>
